@@ -1,0 +1,127 @@
+/*GLOBAL FONTS*/
+@font-face{
+    font-family: apple;
+    src: url(sf-pro-text-thin-webfont.ttf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: white;
+}
+
+#copywrite{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(161, 161, 161);
+}
+
+/*NAVIGATION BAR FONT*/
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: apple;
+}
+
+#branding h1{
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    text-shadow: 0px 0px 3px #ffffff;
+}
+
+#branding a{
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 3px #ffffff;
+}
+
+/*SHOWCASE FONTS*/
+#showcase h1{
+    font-size: 400%;
+}
+
+#showcase1 h1{
+    font-size: 400%;
+}
+
+#showcase2 h1{
+    font-size: 400%;
+}
+
+#showcase p{
+    font-size: 90%;
+}
+
+#showcase1 p{
+    font-size: 90%;
+}
+
+#showcase2 p{
+    font-size: 90%;
+}
+
+/*CONTACT FONTS*/
+.box1 p{
+    color: gray;
+}
+
+.box1 h2{
+    font-family: apple;
+}
+
+/*ABOUT FONTS*/
+.box2 p{
+    color:#649294;
+}
+
+.box2:hover{
+    color:#00c3ff;
+}
+
+/*WORK PAGE FONTS*/
+.box3 p{
+    color: rgb(77, 77, 77);
+}
+
+.box3special p{
+    color: rgb(77,77,77);
+}
+
+.box3 p:hover{
+    color: rgb(177, 175, 175);
+}
+
+.box3special p:hover{
+    color: rgb(177, 175, 175);
+}
+
+.box3 h2{
+    font-size: 200%;
+}
+
+.box3special h2{
+    font-size: 200%;
+}
+
+/*CONTACT FORM FONTS*/
+.inputbox label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    color: rgb(204, 204, 204);
+}
+
+.inputbox input, textarea{
+    color: rgb(189, 189, 189);
+    font-size: 125%;
+}
+
+button{
+    color: white;
+    font-size: 125%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover{
+    background-color: rgb(2, 90, 2);
+}

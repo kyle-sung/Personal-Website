@@ -1,0 +1,53 @@
+/*Showcase Specfic Stuff*/
+#showcase1{
+    min-height: 450px;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url(images/ultrawide.jpg) no-repeat -600px -150px;
+    text-align: center;
+}
+
+#showcase1 h1{
+    padding: 1px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+/*Body Information Specific Stuff*/
+#myWork{
+    margin: 20px;
+}
+
+.box3{
+    margin-bottom: 100px;
+    margin-top: 150px;
+}
+
+.box3special{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+img.align-left{
+    float: left;
+    margin-right: 10px;
+}
+
+img.align-right{
+    float: right;
+    margin-left: 10px;
+}
+
+img.medium{
+    width: 350px;
+    height: 225px;
+}
+
+img.small{
+    width: 350px;
+    height: 250px;
+}
+
+video.align-left{
+    float: left;
+    margin-right: 10px;
+}

@@ -1,0 +1,133 @@
+/*Global Stuff*/
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.altcontainer{
+    width: 60%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.altcontainer2{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(34, 34, 34);
+}
+
+header{
+    background-color: #01494e;
+    padding-top: 0px;
+    min-height: 70px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header Specific Stuff*/
+header li{
+    display: inline;
+    padding: 0 0px 0 20px; /*top, right, bottom, left*/
+}
+
+#branding{
+    float: left;
+}
+
+#branding h1{
+    margin: 8px;
+}
+
+header nav{
+    float: right;
+    margin-top: 20px;
+}
+
+nav a:hover{
+    color: rgb(207, 253, 0);
+    text-shadow: 0px 0px 5px #ffffff;
+}
+
+/*Showcase Specific Stuff*/
+#showcase{
+    min-height: 450px;
+    background:  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), 
+    url(images/newyork.jpg) no-repeat -1900px -1150px;
+    text-align: center;
+}
+
+#showcase h1{
+    padding: 1px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+/*Contact Section Specific Stuff*/
+#contact{
+    margin-top: 3px;
+}
+
+.box1{
+    float: left;
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 10%;
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+    box-shadow: 10px -10px #016168;
+    border-radius: 30px;
+    padding-top: 10px;
+    overflow: hidden;
+
+}
+
+.box1 img{
+    width: 80px;
+}
+
+.box1:hover{
+    background-color: #01494e;
+}
+
+/*About Section Specific Stuff*/
+#about{
+    margin: 50px;
+}
+
+.box2{
+    text-align: center;
+    line-height: 20px;
+    margin: 5%;
+    width: 50%;
+    margin-left: 25%
+}
+
+/*Footer Section Specific Stuff*/
+footer{
+    background: linear-gradient(#222222,#203A43,#2C5364);
+    padding-bottom: 1%;
+    padding-top: 35px;
+}
+
+footer p{
+    text-align: center;
+}
+
+#copywrite{
+    float: right;
+}
+
+footer #branding{
+    float: left;
+    margin-top: 20px;
+}

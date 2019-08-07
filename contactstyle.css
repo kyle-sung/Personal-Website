@@ -1,0 +1,51 @@
+/*Showcase Specfic Stuff*/
+#showcase2{
+    min-height: 450px;
+    background:  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url(images/Contact-us-page-background-image-01-bottom.jpg) no-repeat -700px -250px;
+    text-align: center;
+}
+
+#showcase2 h1{
+    padding: 1px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+.inputbox{
+    text-align: center;
+    background-color: rgba(1, 73, 78, .5);
+    padding: 5%;
+    border-radius: 30px;
+    margin: 60px;
+}
+
+label{
+    float: left;
+}
+
+input, textarea{
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    border-style: none;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center
+}
+
+button{
+    margin-top: 30px;
+    width: 15%;
+    background-color: rgb(2, 155, 2);
+    border-radius: 50px;
+    border-style: none;
+    padding: 8px;
+}
+
+.namebox .emailbox .messagebox .submit{
+    /*this is for the elements to stack on TOP of each other
+    instead of looking like inline elements*/
+    display: block;
+    margin: 10px;
+}
+
