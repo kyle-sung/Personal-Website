@@ -61,8 +61,8 @@ nav a:hover{
 /*Showcase Specific Stuff*/
 #showcase{
     min-height: 450px;
-    background:  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), 
-    url(images/newyork.jpg) no-repeat -1900px -1150px;
+    background:  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url(images/citywallpaper2.jpg) no-repeat -400px -450px;
     text-align: center;
 }
 
