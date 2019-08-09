@@ -2,7 +2,7 @@
 #showcase1{
     min-height: 450px;
     background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
-    url(images/citywallpaper2.jpg) no-repeat -300px -200px;
+    url(images/citywallpaper2.jpg) no-repeat 0px -200px;
     text-align: center;
 }
 
