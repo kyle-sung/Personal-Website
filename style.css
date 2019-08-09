@@ -62,7 +62,7 @@ nav a:hover{
 #showcase{
     min-height: 450px;
     background:  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
-    url(images/citywallpaper.jpg) no-repeat -220px -1100px;
+    url(images/citywallpaper.jpg) no-repeat -250px -1100px;
     text-align: center;
 }
 
