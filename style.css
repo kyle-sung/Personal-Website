@@ -104,12 +104,17 @@ nav a:hover{
     margin: 50px;
 }
 
-.box2{
+.about-box{
+    float: left;
+    margin-top: 50px;
     text-align: center;
-    line-height: 20px;
-    margin: 5%;
-    width: 50%;
-    margin-left: 25%
+    border-style: solid;
+    border-right-color: #222222;
+    border-top-color: #222222;
+    border-bottom: #222222;
+    border-left-color: #ffbb00;
+    border-width: 10px;
+    padding-left: 20px;
 }
 
 /*Footer Section Specific Stuff*/
