@@ -112,9 +112,21 @@ nav a:hover{
     border-right-color: #222222;
     border-top-color: #222222;
     border-bottom: #222222;
-    border-left-color: #ffbb00;
     border-width: 10px;
     padding-left: 20px;
+}
+
+#yellow{
+    border-left-color: #ffbb00;
+}
+
+#blue{
+    border-left-color: #021bfa;
+}
+
+#about img{
+    min-width: 200px;
+    max-width: 300px;
 }
 
 /*Footer Section Specific Stuff*/
