@@ -61,6 +61,10 @@ nav a{
     font-size: 90%;
 }
 
+#showcase special{
+    color: yellow;
+}
+
 /*CONTACT FONTS*/
 .box1 p{
     color: gray;
