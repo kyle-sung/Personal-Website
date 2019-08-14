@@ -45,6 +45,15 @@ button{
 
 button:hover{
     transform: scale(1.2);
+    background-color: rgb(2, 155, 2);
+}
+
+button:focus{
+    outline: 0;
+}
+
+button:active{
+    background-color: rgb(2, 85, 2);
 }
 
 .namebox .emailbox .messagebox .submit{
