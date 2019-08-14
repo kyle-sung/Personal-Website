@@ -40,6 +40,11 @@ button{
     border-radius: 50px;
     border-style: none;
     padding: 8px;
+    transition: .1s linear;
+}
+
+button:hover{
+    transform: scale(1.2);
 }
 
 .namebox .emailbox .messagebox .submit{
