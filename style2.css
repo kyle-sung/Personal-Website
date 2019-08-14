@@ -17,6 +17,10 @@
     margin: 20px;
 }
 
+#myWork p{
+    line-height: 25px;
+}
+
 .box3{
     margin-bottom: 100px;
     margin-top: 150px;
