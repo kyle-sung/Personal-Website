@@ -24,9 +24,9 @@ body{
 }
 
 header{
-    background-color: #01494e;
     padding-top: 0px;
     min-height: 70px;
+    background-color: #01494e;
 }
 
 ul{
@@ -204,7 +204,7 @@ across the box and start position*/
     top: 95%;
 }
 
-/*describes original position for animation,
+/*describes final position for animation,
 goes back to this position after it is done during hover*/
 .instabox:hover::before{
     animation: aaa .7s 1;
