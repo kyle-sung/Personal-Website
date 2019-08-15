@@ -207,19 +207,19 @@ across the box and start position*/
 /*describes final position for animation,
 goes back to this position after it is done during hover*/
 .instabox:hover::before{
-    animation: aaa .9s 1;
+    animation: aaa .7s 1;
     top: -17%;
     left: -105%;
 }
 
 .facebox:hover::before{
-    animation: aaa .9s 1;
+    animation: aaa .7s 1;
     top: -17%;
     left: -105%;
 }
 
 .twitbox:hover::before{
-    animation: aaa .9s 1;
+    animation: aaa .7s 1;
     top: -17%;
     left: -105%;
 }
@@ -235,7 +235,7 @@ goes back to this position after it is done during hover*/
         top: -30%;
     }
     100%{
-        left: -100%;
+        left: -105%;
         top: -17%;
     }
 }
