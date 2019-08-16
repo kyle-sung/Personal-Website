@@ -17,10 +17,22 @@
     margin: auto;
 }
 
+/*important to set your parent elements
+(body and html) to height 100%, so that other
+elements later can use percentage on a reliable
+scale*/
 body{
     padding: 0;
     margin: 0;
     background-color: rgb(34, 34, 34);
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+html{
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth
 }
 
 header{
@@ -63,9 +75,9 @@ nav a:hover{
 
 /*Showcase Specific Stuff*/
 #showcase{
-    min-height: 450px;
+    min-height: 100%;
     background:  linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
-    url(images/citywallpaper.jpg) no-repeat -250px -1100px;
+    url(images/citywallpaper.jpg) no-repeat -250px -1000px;
     text-align: center;
     box-shadow: 0px 1px 10px 2px #0e0e0e inset;
     z-index: 5;
@@ -73,8 +85,26 @@ nav a:hover{
 
 #showcase h1{
     padding: 1px;
-    margin-top: 150px;
-    margin-bottom: 10px;
+    margin-top: 15%;
+    margin-bottom: 0px;
+}
+
+/*relative so that absolute positioned animation 
+shape does not cover the text but only the box*/
+
+#showcase .button{
+    width: 10%;
+    background-color: rgb(32, 59, 90);
+    border-radius: 50px;
+    margin-left: 45%;
+    margin-top: 10%;
+    margin-bottom: 15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    transition: .3s linear;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 10px 2px #0e0e0e;
 }
 
 /*Contact Section Specific Stuff*/
@@ -173,6 +203,10 @@ nav a:hover{
     transform: scale(1.1);
 }
 
+#showcase .button:hover{
+    transform: scale(1.2);
+}
+
 /*describes actual shape that will be moving
 across the box and start position*/
 .instabox::before{
@@ -209,6 +243,17 @@ across the box and start position*/
     top: 95%;
 }
 
+#showcase .button::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#b92b27, #1565C0);
+    border-radius: 30px;
+    left: 0%;
+    top: 100%;
+}
+
 /*describes final position for animation,
 goes back to this position after it is done during hover*/
 .instabox:hover::before{
@@ -229,6 +274,11 @@ goes back to this position after it is done during hover*/
     left: -105%;
 }
 
+#showcase .button:hover::before{
+    animation: new 1.2s 1;
+    top: 0%;
+}
+
 /*describes animation through different phases in time*/
 @keyframes aaa{
     0%{
@@ -242,6 +292,18 @@ goes back to this position after it is done during hover*/
     100%{
         left: -105%;
         top: -17%;
+    }
+}
+
+@keyframes new{
+    0%{
+        top: 100%;
+    }
+    50%{
+        top: 0%;
+    }
+    100%{
+        top: 0%;
     }
 }
 
