@@ -4,6 +4,8 @@
     background:  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
     url(images/Contact-us-page-background-image-01-bottom.jpg) no-repeat -700px -250px;
     text-align: center;
+    box-shadow: 0px 1px 10px 2px #0e0e0e inset;
+    z-index: 5;
 }
 
 #showcase2 h1{

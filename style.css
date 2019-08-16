@@ -27,6 +27,9 @@ header{
     padding-top: 0px;
     min-height: 70px;
     background-color: #01494e;
+    box-shadow: 0px 5px 10px 2px #0e0e0e;
+    position: relative;
+    z-index: 10;
 }
 
 ul{
@@ -64,6 +67,8 @@ nav a:hover{
     background:  linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
     url(images/citywallpaper.jpg) no-repeat -250px -1100px;
     text-align: center;
+    box-shadow: 0px 1px 10px 2px #0e0e0e inset;
+    z-index: 5;
 }
 
 #showcase h1{
