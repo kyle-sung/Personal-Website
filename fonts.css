@@ -38,7 +38,7 @@ nav a{
 
 /*SHOWCASE FONTS*/
 #showcase h1{
-    font-size: 480%;
+    font-size: 500%;
 }
 
 #showcase1 h1{
@@ -67,8 +67,8 @@ nav a{
 
 #showcase h2{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 130%;
-    color: rgb(195, 215, 238);
+    font-size: 110%;
+    color: rgb(255, 255, 255);
     position: relative;
     text-decoration: none;
 }

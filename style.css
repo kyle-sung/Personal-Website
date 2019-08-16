@@ -78,33 +78,37 @@ nav a:hover{
     min-height: 100%;
     background:  linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
     url(images/citywallpaper.jpg) no-repeat -250px -1000px;
-    text-align: center;
+    text-align: ;
     box-shadow: 0px 1px 10px 2px #0e0e0e inset;
     z-index: 5;
 }
 
 #showcase h1{
-    padding: 1px;
     margin-top: 15%;
     margin-bottom: 0px;
+    margin-left: 40px;
+}
+
+#showcase p{
+    margin-left: 45px;
 }
 
 /*relative so that absolute positioned animation 
 shape does not cover the text but only the box*/
 
 #showcase .button{
-    width: 10%;
+    width: 15%;
     background-color: rgb(32, 59, 90);
     border-radius: 50px;
-    margin-left: 45%;
+    margin-left: 40px;
     margin-top: 10%;
-    margin-bottom: 15px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    margin-bottom: 30px;
     transition: .3s linear;
     position: relative;
     overflow: hidden;
     box-shadow: 0 5px 10px 2px #0e0e0e;
+    opacity: .7;
+    text-align: center;
 }
 
 /*Contact Section Specific Stuff*/
@@ -205,6 +209,8 @@ shape does not cover the text but only the box*/
 
 #showcase .button:hover{
     transform: scale(1.2);
+    box-shadow: 0 8px 10px 8px #0e0e0e;
+    opacity: 1;
 }
 
 /*describes actual shape that will be moving
