@@ -32,7 +32,12 @@ body{
 html{
     height: 100%;
     margin: 0;
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+}
+
+/*Hides the scollbar*/
+::-webkit-scrollbar{
+    display: none;
 }
 
 header{
@@ -76,32 +81,34 @@ nav a:hover{
 /*Showcase Specific Stuff*/
 #showcase{
     min-height: 100%;
-    background:  linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+    background:  linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
     url(images/citywallpaper.jpg) no-repeat -250px -850px;
     box-shadow: 0px 1px 10px 2px #0e0e0e inset;
     z-index: 5;
+    /* for that parallex effect CLOUT*/
+    background-attachment: fixed;
 }
 
 #showcase h1{
-    margin-top: 15%;
+    margin-top: 18%;
     margin-bottom: 0px;
-    margin-left: 40px;
+    text-align: center;
 }
 
 #showcase p{
-    margin-left: 45px;
+    text-align: center;
 }
 
 /*relative so that absolute positioned animation 
 shape does not cover the text but only the box*/
 
 #showcase .button{
-    width: 15%;
+    width: 10%;
     background-color: rgb(32, 59, 90);
-    border-radius: 50px;
-    margin-left: 40px;
-    margin-top: 10%;
-    margin-bottom: 30px;
+    border-radius: 30px;
+    left: 45%;
+    margin-top: 100px;
+    margin-bottom: 10px;
     transition: .3s linear;
     position: relative;
     overflow: hidden;
@@ -309,6 +316,24 @@ goes back to this position after it is done during hover*/
     }
     100%{
         top: 0%;
+    }
+}
+
+@keyframes floatation{
+    0%{
+        margin-top: 18%;
+    }
+    25%{
+        margin-top: 19%;
+    }
+    50%{
+        margin-top: 18%
+    }
+    75%{
+        margin-top: 17%;
+    }
+    100%{
+        margin-top: 18%;
     }
 }
 

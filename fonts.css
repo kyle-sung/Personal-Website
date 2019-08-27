@@ -38,7 +38,8 @@ nav a{
 
 /*SHOWCASE FONTS*/
 #showcase h1{
-    font-size: 600%;
+    font-size: 550%;
+    letter-spacing: 5px;
 }
 
 #showcase1 h1{
