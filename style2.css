@@ -57,3 +57,42 @@ video.align-left{
     float: left;
     margin-right: 10px;
 }
+
+.logocontainer{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#typelogo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+path{
+    fill: white;
+    stroke: white;
+    stroke-dasharray: 1800;
+    opacity: 10;
+    animation: animate 4s;
+}
+
+@keyframes animate{
+    0%{
+        fill: none;
+        stroke-dashoffset: 1800;
+    }
+    30%{
+        fill: none;
+        stroke-dashoffset: 1800;
+    }
+    90%{
+        fill: white;
+    }
+    100%{
+        fill: white;
+        stroke-dashoffset: 0;
+    }
+}
