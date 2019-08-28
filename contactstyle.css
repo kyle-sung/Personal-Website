@@ -1,8 +1,9 @@
 /*Showcase Specfic Stuff*/
 #showcase2{
-    min-height: 450px;
+    min-height: 70%;
     background:  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
-    url(images/Contact-us-page-background-image-01-bottom.jpg) no-repeat -700px -250px;
+    url(images/bharat-patil-WR5_Ev_bh-I-unsplash.jpg) -0px -55px no-repeat;
+    background-size: cover;
     text-align: center;
     box-shadow: 0px 1px 10px 2px #0e0e0e inset;
     z-index: 5;
@@ -10,17 +11,30 @@
 }
 
 #showcase2 h1{
-    padding: 1px;
-    margin-top: 150px;
-    margin-bottom: 10px;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    text-align: center;
+}
+
+#showcase2 p{
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    text-align: center;
 }
 
 .inputbox{
     text-align: center;
-    background: linear-gradient(#203A43,#2C5364,rgb(14, 43, 56));
+    background: rgb(48, 47, 47);
     padding: 5%;
     border-radius: 30px;
     margin: 60px;
+    box-shadow: 0px 7px 10px 2px #0e0e0e
 }
 
 label{

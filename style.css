@@ -26,11 +26,13 @@ body{
     margin: 0;
     background-color: rgb(34, 34, 34);
     height: 100%;
+    width: 100%;
     scroll-behavior: smooth;
 }
 
 html{
     height: 100%;
+    width: 100%;
     margin: 0;
     scroll-behavior: smooth;
 }
@@ -41,10 +43,9 @@ html{
 }
 
 header{
-    padding-top: 0px;
     min-height: 70px;
     background-color: #01494e;
-    box-shadow: 0px 5px 10px 2px #0e0e0e;
+    box-shadow: 0px 1px 5px 2px #0e0e0e;
     position: relative;
     z-index: 10;
 }
@@ -82,7 +83,8 @@ nav a:hover{
 #showcase{
     min-height: 100%;
     background:  linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
-    url(images/citywallpaper.jpg) no-repeat -250px -850px;
+    url(images/andre-benz-CR0E20Of7yU-unsplash.jpg) no-repeat -0px -0px;
+    background-size: cover;
     box-shadow: 0px 1px 10px 2px #0e0e0e inset;
     z-index: 5;
     /* for that parallex effect CLOUT*/
@@ -90,13 +92,25 @@ nav a:hover{
 }
 
 #showcase h1{
-    margin-top: 18%;
-    margin-bottom: 0px;
+    position: relative;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 100%;
     text-align: center;
 }
 
 #showcase p{
     text-align: center;
+    position: relative;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    width: 90%;
 }
 
 /*relative so that absolute positioned animation 
@@ -106,14 +120,17 @@ shape does not cover the text but only the box*/
     width: 10%;
     background-color: rgb(32, 59, 90);
     border-radius: 30px;
-    left: 45%;
+    position: absolute;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    top: 80%;
+    left: 50%;
     margin-top: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     transition: .3s linear;
-    position: relative;
     overflow: hidden;
     box-shadow: 0 5px 10px 2px #0e0e0e;
-    opacity: .7;
+    opacity: .8;
     text-align: center;
 }
 
@@ -214,7 +231,6 @@ shape does not cover the text but only the box*/
 }
 
 #showcase .button:hover{
-    transform: scale(1.2);
     box-shadow: 0 8px 10px 8px #0e0e0e;
     opacity: 1;
 }
@@ -287,7 +303,7 @@ goes back to this position after it is done during hover*/
 }
 
 #showcase .button:hover::before{
-    animation: new 1.2s 1;
+    animation: new 1.5s 1;
     top: 0%;
 }
 
